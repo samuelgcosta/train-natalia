@@ -1,48 +1,48 @@
 @font-face {
     font-family: 'VisbyCF';
-    src: url('../fonts/VisbyCF-Thin.otf') format('opentype');
+    src: url('VisbyCF-Thin.otf') format('opentype');
     font-weight: 100;
 }
 
 @font-face {
     font-family: 'VisbyCF';
-    src: url('../fonts/VisbyCF-Light.otf') format('opentype');
+    src: url('VisbyCF-Light.otf') format('opentype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'VisbyCF';
-    src: url('../fonts/VisbyCF-Regular.otf') format('opentype');
+    src: url('VisbyCF-Regular.otf') format('opentype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'VisbyCF';
-    src: url('../fonts/VisbyCF-Medium.otf') format('opentype');
+    src: url('VisbyCF-Medium.otf') format('opentype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'VisbyCF';
-    src: url('../fonts/VisbyCF-DemiBold.otf') format('opentype');
+    src: url('VisbyCF-DemiBold.otf') format('opentype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'VisbyCF';
-    src: url('../fonts/VisbyCF-Bold.otf') format('opentype');
+    src: url('VisbyCF-Bold.otf') format('opentype');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'VisbyCF';
-    src: url('../fonts/VisbyCF-ExtraBold.otf') format('opentype');
+    src: url('VisbyCF-ExtraBold.otf') format('opentype');
     font-weight: 800;
 }
 
 @font-face {
     font-family: 'VisbyCF';
-    src: url('../fonts/VisbyCF-Heavy.otf') format('opentype');
+    src: url('VisbyCF-Heavy.otf') format('opentype');
     font-weight: 900;
 }
 
