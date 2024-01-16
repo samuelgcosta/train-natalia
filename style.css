@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'VisbyCF';
+    src: url('../fonts/VisbyCF-Thin.otf') format('opentype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'VisbyCF';
+    src: url('../fonts/VisbyCF-Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'VisbyCF';
+    src: url('../fonts/VisbyCF-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'VisbyCF';
+    src: url('../fonts/VisbyCF-Medium.otf') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'VisbyCF';
+    src: url('../fonts/VisbyCF-DemiBold.otf') format('opentype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'VisbyCF';
+    src: url('../fonts/VisbyCF-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'VisbyCF';
+    src: url('../fonts/VisbyCF-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'VisbyCF';
+    src: url('../fonts/VisbyCF-Heavy.otf') format('opentype');
+    font-weight: 900;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VisbyCF',sans-serif;
+}
+
+/*============================================================================================================*/
+
+@media(max-width:780px) {
+
+    #Logo-Desktop,
+    #Scroll-Desktop,
+    .Container-Pai-Desktop {
+        display: none;
+    }
+
+    .Container-Pai-Mobile {
+        gap: 1rem;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fcf7e9;
+    }
+
+    .Container-Pai-Mobile h1 {
+        font-family: 'VisbyCF',sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        width: 90%;
+        margin: auto;
+    }
+
+    #Logo-Mobile {
+        width: clamp(60%,40%,45%);
+        margin-top: 2rem;
+    }
+
+    #Scroll-Mobile {
+        width: 5%;
+    }
+
+    #Bg-Mobile {
+        width: 100%;
+        background-position: center;
+    }
+}
+
+/*============================================================================================================*/
+
+@media(min-width:780px) and (max-width:1920px) {
+
+    #Logo,
+    #Scroll,
+    #BgMobile,
+    .Container-Pai-Mobile {
+        display: none;
+    }
+
+    .Container-Pai-Desktop {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-image: url(Bg-Desktop.webp);
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .Container-Filho-1 {
+        width: 50%;
+    }
+
+    .Container-Filho-2 {
+        gap: 1rem;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .Container-Filho-2 h1 {
+        width:80%;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    #Logo-Desktop {
+        width: 300px;
+    }
+
+}
+
+/*============================================================================================================*/
+
+@media(min-width:1920px) {
+
+    #Logo,
+    #Scroll,
+    #BgMobile,
+    .Container-Pai-Mobile {
+        display: none;
+    }
+
+    .Container-Pai-Desktop {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-size: cover;
+        background-position: center top;
+        background-image: url(Bg-Desktop.webp);
+    }
+
+    .Container-Filho-1 {
+        width: 50%;
+    }
+
+    .Container-Filho-2 {
+        gap: 1rem;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .Container-Filho-2 h1 {
+        width: 90%;
+    }
+
+}
+
+/*============================================================================================================*/
